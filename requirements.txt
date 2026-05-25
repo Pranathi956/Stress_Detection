@@ -8,3 +8,4 @@ google-generativeai
 python-dotenv
 plotly
 groq
+matplotlib
