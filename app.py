@@ -43,16 +43,14 @@ BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 def load_artifacts():
     ARTIFACT_PATH = os.path.join(BASE_PATH, "data")
 
-    model = joblib.load(os.path.join(ARTIFACT_PATH, "best_model.pkl"))
-    scaler = joblib.load(os.path.join(ARTIFACT_PATH, "scaler.pkl"))
-    feature_names = joblib.load(os.path.join(ARTIFACT_PATH, "feature_names.pkl"))
+    model = joblib.load("best_model.pkl")
+    scaler = joblib.load("scaler.pkl")
+    feature_names = joblib.load("feature_names.pkl")
 
-    with open(os.path.join(ARTIFACT_PATH, "thresholds.json")) as f:
+    with open("thresholds.json") as f:
         thresholds = json.load(f)
 
-    metrics_df = pd.read_csv(
-        os.path.join(ARTIFACT_PATH, "model_metrics.csv")
-    )
+    metrics_df = pd.read_csv("model_metrics.csv")
 
     return model, scaler, feature_names, thresholds, metrics_df
 
