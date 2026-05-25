@@ -1,0 +1,5 @@
+Model,Accuracy (%),Precision,Recall,F1 (macro)
+SVM,99.38,0.993,0.992,0.993
+Decision Tree,98.65,0.985,0.982,0.984
+Random Forest,99.95,1.0,0.999,0.999
+ANN,99.91,0.999,0.999,0.999
