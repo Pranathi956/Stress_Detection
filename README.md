@@ -9,4 +9,4 @@ Integrated Llama3 (GROQ AI) API to generate personalized stress management recom
 Built and deployed an interactive Streamlit web app with real-time gauge visualization, stress timeline, and AI advice panel; containerized using Docker for consistent cross-system deployment.
 
 Future Scope line:
-"Planned extensions include smartwatch integration (Apple Watch / Fitbit API) for real-time signal streaming and a manual input mode for heart rate and sleep hours-based prediction.
+Planned extensions include smartwatch integration (Apple Watch / Fitbit API) for real-time signal streaming and a manual input mode for heart rate and sleep hours-based prediction.
